@@ -1,0 +1,23 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "ExpressJS Portfolio Website - Assignment 2 (INFR3120)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": "Sarah Soueidan",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "jquery": "^3.7.1",
+    "morgan": "^1.10.0",
+    "popper.js": "^1.16.1"
+  }
+}

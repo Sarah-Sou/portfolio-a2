@@ -1,0 +1,81 @@
+/* === General Layout === */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* === Navbar === */
+.bg-custom {
+  background-color: #05176B !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  margin-left: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #f1c40f !important;
+}
+
+/* === Main Content === */
+main {
+  flex: 1 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* === Footer === */
+.footer {
+  background-color: #05176B;
+  color: white;
+  flex-shrink: 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f1c40f;
+}
+
+/* === Cards === */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+/* === Contact Form === */
+form {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #05176B;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0a238c;
+}
